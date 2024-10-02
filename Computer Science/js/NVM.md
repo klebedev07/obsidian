@@ -11,7 +11,7 @@ source $(brew --prefix nvm)/nvm.sh
 nvm ls-remote
 
 //устанавливаем нужную версию 
-nvm install node 18
+nvm install node 22.5.1
 
 //устанавливаем версию по умолчанию, если у нас их несколько
 nvm alias default 16
