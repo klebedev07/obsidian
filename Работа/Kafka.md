@@ -16,4 +16,4 @@ kubectl create secret generic --from-file ./keytabname.keytab keytabname-keytab 
 ```
 
 
-kubectl create secret generic --from-file ~/keytab/perm/srv-t-rbpperm-kafka.keytab srv-t-rbpperm-kafka-keytab -n authorization
+kubectl create secret generic --from-file ~/keytabs/perm/srv-t-rbpperm-kafka.keytab srv-t-rbpperm-kafka-keytab -n authorization
